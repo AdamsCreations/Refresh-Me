@@ -1,0 +1,35 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(57, 62, 70);
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(78, 204, 163);
+}
+
+h1{
+  margin: 0%;
+  padding: 0%;
+  font-family: "lobster";
+  font-size: 8rem;
+  text-shadow: rgb(35, 41, 49) 5px 0px;
+}
+
+p{
+  font-size: 2rem;
+}
+
+.dice-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .dice-container{
+    flex-direction: column;
+  }
+}
